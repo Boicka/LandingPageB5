@@ -1,0 +1,151 @@
+.container {
+  max-width: 1000px;
+}
+
+header {
+  background-image: url('./assets/img/unichicago.jpg');
+  background-size: cover;
+  height: 550px;
+  position: relative;
+}
+
+.title-color{
+  color: #0580e5;
+}
+
+.title-color-alt{
+  color: white;
+}
+
+.text-nav {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  font-size: medium;
+  
+}
+
+.title {
+  color: #0580e5;
+  font-size: 45px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.btn {
+  background-color: #0580e5;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.logo {
+  border-radius: 20px;
+  width: 150px;
+}
+
+#row-carrers {
+  background-color: #0580e5;
+
+}
+
+.row {
+  margin: 0px;
+}
+
+#row-carrers img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+
+#row-about {
+  background-color: #ffffff;
+}
+
+#row-about img {
+  border-radius: 50%;
+}
+
+#row-about p {
+  font-size: 14px;
+}
+
+#row-data {
+  background-color: #0580e5;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  background-color: #b3bfff;
+}
+
+#row-experience {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+#row-experience img {
+  border-radius: 50%;
+}
+
+#row-experience p {
+  font-size: 14px;
+}
+
+#row-img{
+  background-image: url('./assets/img/fondo1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#row-frase {
+  background-image: url('./assets/img/frase.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-top: 200px !important;
+  padding-bottom: 200px !important;
+}
+
+#row-contact {
+  background-color: #b3bfff;
+  padding-top: 140px !important;
+  padding-bottom: 140px !important;
+}
+
+.form-control {
+  border-radius: 50px;
+}
+
+footer {
+  background-color: black;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+@media(max-width:992px){
+  .navbar-nav {
+    background-color: #0580e5;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    padding-left: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+  }
+}
+
+@media(max-width:575px){
+  .row-img {
+    padding-left: 200px !important;
+  }
+}
+
+nav {
+  z-index: 100;
+}
